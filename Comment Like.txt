@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="lc.js"></script>
+</head>
+<body>
+	
+		<div style="flex:1;background-color:pink">
+		
+			<ul style="display:flex;list-style-type:none;justify-content:space-between;flex-direction:row">
+			<li>Home</li>
+			<li>About Us</li>
+			<li>Sign in</li>
+			</ul>
+		</div>
+		<div style="margin-top: 4px; margin-bottom: 4px;">
+			<input
+			  class="temp"
+			  type="text"
+			  name=""
+			  id="inputId1"
+			  placeholder="comment using this"
+			/>
+		  </div>
+		
+		
+		<div>
+			<!-- logic for like now-->
+			<button id="btnid" onclick="likeHere()">Like 1</button>
+	  
+			<button onclick="commentHere()">Comment Now</button>
+		  </div>
+	
+			<!--cloooooooooning -->
+			<div id="placecomment">place the value</div>
+		
+		
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+************************JS********************
+var count=0;
+function like()
+{
+	let likecount=document.querySelector('#like');
+	count++;
+	likecount.innerHTML=count;
+}
+function Dislike()
+{
+	let likecount=document.querySelector('#dislike');
+	count--;
+	likecount.innerHTML=count;
+}
+
+function commentHere() {
+	let userComment = document.querySelector("#inputId1").value; // we are not using innerHTML wy bcz this is a form element
+  
+	// create new element
+	const newElement = document.createElement("div");
+	newElement.textContent = userComment; // removed the hardcode with user comment
+  
+	// add styling to new element
+	newElement.style.background = "royalblue"; // values must be in double quotes or single quote
+	newElement.style.color = "white";
+	newElement.style.margin = "4px";
+  
+	// comment box elment
+	const commentBox = document.querySelector("#commentBox");
+  
+	// now we want to add the element at the top.
+	// commentBox.appendChild(newElement);
+	commentBox.insertBefore(newElement, commentBox.firstChild);
+}
+
+
+
+
+
+
