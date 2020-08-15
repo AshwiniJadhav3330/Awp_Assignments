@@ -1,0 +1,66 @@
+******************************************************************************************
+
+middle element
+
+<!DOCTYPE HTML>
+<html>
+<head><title></title></head>
+
+<body>
+<div style="background:red;
+			height:400px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			">
+			
+			<div style="background:green;">A</div>
+			<div style="background:blue">B</div>
+
+
+</div>
+</body>
+</html>
+
+******************************************************************************************
+
+
+<!DOCTYPE HTML>
+<html>
+<head><title></title></head>
+
+<body>
+<div style="background:red;height:400px; display:flex;justify-content:center;align-items:center;flex-direction:column;">
+
+<div style="background:green">Ashu</div>
+<div style="background:blue">Anuu</div>
+
+
+
+</div>
+
+</div>
+</body>
+</html>
+********************************************************************************************
+
+<!DOCTYPE HTML>
+<html>
+<head><title></title></head>
+
+<body>
+<div style="background:red;height:400px; display:flex;justify-content:center;align-items:center;">
+
+<div style="background:green;flex:1;display:flex;justify-content:center;align-items:center;">Ashu</div>
+<div style="background:blue;flex:1;display:flex;justify-content:center;align-items:center;">Anuu</div>
+<div style="background:yellow;flex:1;display:flex;justify-content:center;align-items:center;">Shruti</div>
+
+
+
+</div>
+
+</div>
+</body>
+</html>
+
+
