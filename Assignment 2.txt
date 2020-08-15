@@ -1,0 +1,27 @@
+***********************Assignment 2***************************************
+
+<!DOCTYPE HTML>
+<html>
+<head><title></title>
+<style>
+body,div{
+		margin:0px;
+		padding:0px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div style="display:flex;background:red;justify-content:flex-start;align-items:flex-start">
+	<div style="background:yellow;flex:1">A</div>
+	<div style="background:green;flex:2;">B</div>
+	<div style="background:blue;flex:2">B</div>
+	<div style="background:green;flex:4">B</div>
+</div>
+
+</body>
+</html>
+
+
