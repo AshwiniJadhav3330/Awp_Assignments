@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head><title></title>
+<style>
+      html,
+      body {
+        margin: 0;
+      }
+    </style></head>
+<body>
+<div style="height:80px;display:flex;background-color:black;align-items:center;">
+			<div style="flex:1;">
+				<div style="text-align:left;color:white;font-size:50px;padding-left:30px;padding-top:10px">CDAC</div>
+
+			</div>
+
+<div style="flex:2;display:flex;justify-content:flex-end;">
+	<div style="color:white;font-size:30px;text-align:left;margin-right: 8px;border:1px solid white;border-radius:8px;">Home</div>
+	<div style="color:white;font-size:30px;text-align:left;margin-right: 8px;border:1px solid white;border-radius:8px;">About Us</div>
+	<div style="color:white;font-size:30px;text-align:left;margin-right: 8px;border:1px solid white;border-radius:8px">Contact Us</div>
+
+
+
+
+	</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

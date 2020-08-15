@@ -1,0 +1,88 @@
+********************************************************************
+
+
+<!DOCTYPE HTML>
+<html>
+<head><title></title>
+<style>
+body,div{
+		margin:0px;
+		padding:0px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div style="height:100vh;
+	display:flex;
+	background:red;
+	flex-direction:column;
+
+	justify-content:center;
+	align-items:center;"
+	>
+	<div>A</div>
+	<div>B</div>
+	
+</div>
+
+</body>
+</html>
+*********************************************************************************
+
+<!DOCTYPE HTML>
+<html>
+<head><title></title>
+<style>
+body,div{
+		margin:0px;
+		padding:0px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div style="height:100vh;
+	display:flex;
+	background:red;
+	flex-direction:column;
+	
+	">
+	<div style="flex:1;background-color:yellow;display:flex;justify-content:center;display:flex;font-size:50px;">A</div>
+	<div style="flex:10;background-color:green;display:flex;justify-content:center;display:flex;font-size:50px;">B</div>
+	<div style="flex:1;background-color:blue;display:flex;justify-content:center;font-size:50px;">C</div>
+	
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

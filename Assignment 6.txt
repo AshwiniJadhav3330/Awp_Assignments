@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head><title></title></head>
+
+<body>
+<div style="height:80px;display:flex;">
+	<div style="flex:1;background-color:blue;text-align:center;align-items:center;text-align:center;">Header</div>
+</div>
+
+<div style="height:500px;display:flex;">
+	<div style="flex:1;background-color:orange;text-align:center;">Left</div>
+	<div style="flex:5;background-color:white;text-align:center;margin-top:250px;">Main</div>
+	<div style="flex:1;background-color:green;text-align:center;">Right</div>
+	
+</div>
+
+
+
+
+
+<div style="height:80px;display:flex;">
+	<div style="flex:1;background-color:blue;text-align:center;">Footer</div>
+</div>
+</body>
+
+</html>
+
+
+
+
