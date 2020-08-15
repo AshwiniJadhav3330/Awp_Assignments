@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<style>
+.b{
+	background-color:#008CBA;
+	color:white;
+	border-radius:2px;	
+	text-align:center;
+	font-size:16px;
+	display:inline-block;
+	padding:10px 18px;
+  }
+  .heading
+		{
+			margin-top:0px;
+			text-align:center;
+			color:white;
+		}
+		.l
+		{
+			color:white;
+		}
+</style>
+</head>
+<body>
+<div style="display:flex;
+			height:100vh;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			border:1px solid black;
+			
+			background-image:url('c.jpg');
+			background-position:center;
+			background-size:cover;
+			">
+
+<div style="display:flex;
+			height:400px;
+			width:300px;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			
+			box-shadow:inset 20px 20px 50px 10px black;
+			background-color:black;
+		
+			">
+			
+	
+	<div style="flex:1;justify-content:center;align-items:center;">
+	<div style="display:flex;flex:1"><img src="IMG_20171229_182121.jpg" style="height:80px;width:80px; border-radius:50%;margin-left:80px;margin-top:20px;"></img></div><br><br>
+	<h2 class="heading";>Login Here</h2><br>
+		<label class="l"><b> Username</b></label>
+		<input type ="text" id="username" minlength="3" maxlength="12" pattern="[A-Za-z] {3}" placeholder="Username" required><br><br>
+		<span id="username1"></span>
+	
+	
+	<div style="flex:1;justify-content:center;align-items:center">
+		<label  class="l"> <b>Password</b></label>
+		<input type ="Password" name="pw";pattern="(?=.*\d) (?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password" required><br><br><br>
+
+	</div>
+
+	<div style="display:flex;justify-content:center;align-items:center">
+	
+	<button type="button" align="center" class="b">Login</button>
+	</div>
+	</div>
+</div>
+
+</div>
+<script type="text/javascript">    
+
+function validation()
+{
+	var user=document.getElementByI('username').value;
+		if(username == "")
+		{
+			document.getElementByI('username1').innerHTML="please fill the details properly";
+			return false;
+		}
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
